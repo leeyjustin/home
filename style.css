@@ -1,0 +1,140 @@
+body 
+{
+  background-color:lightblue;
+  margin: 20px;
+  color: white;
+  background-image: url("Pictures/sky.png");
+  background-size: 125%;
+}
+h1 
+{
+  border-style: solid;
+  border-width: 8px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-color: blue;background : blue;
+  color: white;
+  font-size: 24px;
+  font-family: "Arial", serif;
+}
+h2
+{
+  border-style: solid;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: black;	
+  background : black;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Arial", Times, serif;
+}
+table
+{
+  width: 25%;
+  border-collapse: collapse;
+}
+th 
+{
+  height: 50px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: "Arial", serif;
+  font-size: 20px;
+}
+td, th 
+{
+  border: 5px solid black;
+  background-color: white;
+}
+li
+{
+  font-size: 24px;
+  font-family: "Arial", Times, serif;
+  color: black;
+  font-weight: bold;
+}
+img
+{
+  border-color : black;
+  border-width : medium;
+  border-style : solid;
+  padding : .5%;
+  margin : .5%;
+  background-color : black;
+}
+.topnav 
+{
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  border-bottom: 3px solid transparent;
+}
+.topnav a:hover 
+{
+  border-bottom: 3px solid blue;
+}
+.topnav a.active 
+{
+  border-bottom: 3px solid blue;
+}
+td
+{
+  color: black;
+  font-weight: bold;
+  font-family: "Arial", serif;
+}
+p
+{
+  border-style: solid;
+  border-width: 8px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-color: black;background : grey;
+  text-align: justify;
+  font-family: "Arial", serif;
+  font-size: 20px;
+}
+a 
+{
+  color: black;
+  font-family: "Arial", serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+caption
+{
+  border: 5px solid black;
+  background-color: white;
+  font-family: "Arial", serif;
+  font-size: 20px; 
+  color: black;
+  font-weight: bold;
+}
+video
+{
+  border-color : black;
+  border-width : medium;
+  border-style : solid;
+  padding : .3%;
+  margin : .3%;
+  background-color : black;
+}

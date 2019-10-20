@@ -1,0 +1,114 @@
+body 
+{
+  background-color:lightblue;
+  margin: 20px;
+  color: white;
+  background-image: url("Pictures/sky.png");
+  background-size: 125%;
+}
+h1 
+{
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  font-family: "Arial", Times, serif;
+}
+th 
+{
+  height: 50px;
+  text-align: center;
+}
+table 
+{
+  border-collapse: collapse;
+  width: 25%;
+}
+td, th 
+{
+  border: 1px solid blue;
+}
+li
+{
+  font-size: 24px;
+  font-family: "Arial", Times, serif;
+}
+img
+{
+  border-color : black;
+  border-width : medium;
+  border-style : solid;
+  padding : 1%;
+  margin : 1%;
+  background-color : black;
+}
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+h1 
+{
+  border-style: solid;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: blue;	
+  background : blue;
+}
+h2
+{
+  border-style: solid;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: black;	
+  background : black;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Arial", Times, serif;
+}
+.topnav 
+{
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  border-bottom: 3px solid transparent;
+}
+.topnav a:hover 
+{
+  border-bottom: 3px solid blue;
+}
+.topnav a.active 
+{
+  border-bottom: 3px solid blue;
+}
+p
+{
+  border-style: solid;
+  border-width: 8px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-color: black;background : grey;
+  font-family: "Arial", serif;
+  font-size: 25px;
+  text-align: justify;
+}
+a 
+{
+  color: black;
+  font-family: "Arial", serif;
+  font-size: 24px;
+  font-weight: bold;
+}
